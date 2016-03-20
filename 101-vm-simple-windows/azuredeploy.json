@@ -179,7 +179,7 @@
               "diskSizeGB": "[parameters('sizeOfDiskInGB')]",
               "lun": 0,
               "vhd": {
-                "uri": "[variables('dataDisk1VhdName')]"
+                "uri": "concat('http://',variables('storageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/',variables('dataDisk1VhdName'),'.vhd')]"
               },
               "createOption": "Empty"
             }
