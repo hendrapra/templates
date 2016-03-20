@@ -3,19 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "admin123"
+      "value": "sysadmin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "QWEqwe123"
     },
     "dnsLabelPrefix": {
-      "value": "UNIQUE"
+      "value": "GEN-MHP"
     },
     "location": {
       "value": "West US"
     },
     "sizeOfDiskInGB": {
-      "value": "20"
+      "value": "80"
     }
   }
 }
